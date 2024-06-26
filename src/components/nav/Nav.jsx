@@ -12,7 +12,7 @@ import { Link } from 'react-scroll';
 import { useState } from 'react';
 
 const Nav = () => {
-  const [activeNav,] = useState('#')
+  const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
       <Link 
